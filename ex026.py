@@ -1,0 +1,5 @@
+f = str(input('Digite uma frase: ')).lower().strip()
+s = f.find('a')
+print('Quantas vezes aparece a letra a? {} '.format(f.count('a')))
+print('Qual a primeira posição que ela aparece? {}'.format(s+1))
+print('Qual sua ultima posição? {}'.format(f.rfind('a')+1))

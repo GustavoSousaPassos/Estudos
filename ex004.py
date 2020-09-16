@@ -1,0 +1,7 @@
+g = input('Digite algo:')
+print('Valor é númerico? {}'.format(g.isnumeric()))
+print('O valor e alfabetico? {}'.format(g.isalpha()))
+print('O valor e alfabetico e númerico? {}'.format(g.isalnum()))
+print('O valor está em maíusculo? {}'.format(g.isupper()))
+print('O valor está em mínusculo? {}'.format(g.lower()))
+print('O valor está capitalizado? {}'.format(g.splitlines()))

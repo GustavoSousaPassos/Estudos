@@ -1,5 +1,5 @@
 pr = float(input('Digite o preço da comprar'))
-opc = int(input('Digite a opção de pagamento desejado: \n[1] A vista \n[2]A vista no cartão \n[3] Até 2x no cartão \n[4] 3x  ou maisno cartão'))
+opc = int(input('Digite a opção de pagamento desejado: \n[1] A vista \n[2]A vista no cartão \n[3] Até 2x no cartão \n[4] 3x  ou mais no cartão\nOpção: '))
 if opc == 1:
     d = pr * 0.1
     pr = pr - d
